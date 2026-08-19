@@ -1,7 +1,7 @@
 > [!NOTE]  
 > **Archive Notice:** This repository is an archived collection of web development reference files, project templates, and practical exercises created for school coursework (2023–2024).
 
-# 💻 Web Development References
+# 💻 Grade 10 Web Development References
 
 > Code references, project templates, and practical exercises curated by **Geon Ivan Dulaca** & **Jay Santiago** of STVEP 10-Byron.
 
