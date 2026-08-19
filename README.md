@@ -9,11 +9,14 @@
 
 ### 📁 Included References & Templates
 
-* **Blog Website Reference:** Frontend layout and structure example
-* **Practical Forms:** Form validation and input handling examples
-* **PHP & MySQL Database Project:** Backend database integration project files
-* **Academic Coursework:** Quarter-based programming exercises and code snippets
+* **`Blog-Website`**: A layout and content template for a personal/informational blog.
+* **`Inventory-Sales-System`**: Core application logic for tracking products, orders, and sales records.
+* **`Inventory-System-Template`**: Starter layout and structural base for the inventory management app.
+* **`Login-Form`**: Basic authentication UI with form input handling.
+* **`PC-Builder-Form`**: Hardware configuration tool with custom drop-down selectors and a summary table.
+* **`Student-Data-Entry`**: A registration form interface that logs student information directly into a data grid.
 
 ---
 
-🛠️ *Language & Stack:* HTML, CSS, PHP, MySQL
+🛠️ *Language & Stack:* HTML, CSS, JavaScript, PHP, MySQL
+

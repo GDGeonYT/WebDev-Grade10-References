@@ -1,0 +1,10 @@
+{
+  "samples": [
+    {
+      "gpu":"NVIDIA GeForce GTX 1070",
+      "cpu":"Intel Core i3 Series",
+      "storage":"512GB",
+      "ram":"16GB"
+    }
+  ]
+}

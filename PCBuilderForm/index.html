@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules\bootstrap\dist\css\bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules\bootstrap-icons\font\bootstrap-icons.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="card">
+        <div class="card-header">
+          <h4>
+            <i
+              class="bi bi-pc-display"
+              style="margin-right: 1rem; font-size: 3rem"></i
+            >PC Builder
+          </h4>
+        </div>
+        <div class="card-body">
+          <form id="pcForm">
+            <div class="row">
+              <div class="col-lg-12 mb-2">
+                <label for="" class="form-label">GPU</label>
+                <select id="gpu" class="form-select">
+                  <option value="">-</option>
+                  <optgroup label="GeForce Series">
+                    <option value="NVIDIA GeForce GTX 1050">NVIDIA GeForce GTX 1050</option>
+                    <option value="NVIDIA GeForce GTX 1060">NVIDIA GeForce GTX 1060</option>
+                    <option value="NVIDIA GeForce GTX 1070">NVIDIA GeForce GTX 1070</option>
+                    <option value="NVIDIA GeForce GTX 1080">NVIDIA GeForce GTX 1080</option>
+                  </optgroup>
+                  <optgroup label="RTX Series">
+                    <option value="NVIDIA GeForce RTX 2060">NVIDIA GeForce RTX 2060</option>
+                    <option value="NVIDIA GeForce RTX 2070">NVIDIA GeForce RTX 2070</option>
+                    <option value="NVIDIA GeForce RTX 2080">NVIDIA GeForce RTX 2080</option>
+                    <option value="NVIDIA GeForce RTX 3060">NVIDIA GeForce RTX 3060</option>
+                    <option value="NVIDIA GeForce RTX 3070">NVIDIA GeForce RTX 3070</option>
+                    <option value="NVIDIA GeForce RTX 3080">NVIDIA GeForce RTX 3080</option>
+                    <option value="NVIDIA GeForce RTX 3090">NVIDIA GeForce RTX 3090</option>
+                    <option value="NVIDIA GeForce RTX 4060">NVIDIA GeForce RTX 4060</option>
+                    <option value="NVIDIA GeForce RTX 4070">NVIDIA GeForce RTX 4070</option>
+                    <option value="NVIDIA GeForce RTX 4080">NVIDIA GeForce RTX 4080</option>
+                    <option value="NVIDIA GeForce RTX 4090">NVIDIA GeForce RTX 4090</option>
+                  </optgroup>
+              </select>
+              
+              </div>
+              <div class="col-lg-12 mb-2">
+                <label for="" class="form-label">CPU</label>
+                  <select id="cpu" class="form-select">
+                  <option value="">-</option>
+                  <optgroup label="Intel CPUs">
+                    <option value="Intel Core i3 Series">Intel Core i3 Series</option>
+                    <option value="Intel Core i5 Series">Intel Core i5 Series</option>
+                    <option value="Intel Core i7 Series">Intel Core i7 Series</option>
+                    <option value="Intel Core i9 Series">Intel Core i9 Series</option>
+                    <option value="Intel Pentium Series">Intel Pentium Series</option>
+                    <option value="Intel Celeron Series">Intel Celeron Series</option>
+                  </optgroup>
+                  <optgroup label="AMD Ryzen CPUs">
+                    <option value="AMD Ryzen 3 Series">AMD Ryzen 3 Series</option>
+                    <option value="AMD Ryzen 5 Series">AMD Ryzen 5 Series</option>
+                    <option value="AMD Ryzen 7 Series">AMD Ryzen 7 Series</option>
+                    <option value="AMD Ryzen 9 Series">AMD Ryzen 9 Series</option>
+                  </optgroup>
+                  </select>
+              </div>
+              <div class="col-lg-12 mb-2">
+                <label for="" class="form-label">Storage</label>
+                <select id="storage" class="form-select">
+                  <option value="">-</option>
+                  <option value="256GB">256GB</option>
+                  <option value="512GB">512GB</option>
+                  <option value="1TB">1TB</option>
+                  <option value="2TB">2TB</option>
+                  <option value="4TB">4TB</option>
+                </select>
+              </div>
+              <div class="col-lg-12 mb-2">
+                <label for="" class="form-label">RAM</label>
+                <select id="ram" class="form-select">
+                  <option value="">-</option>
+                  <option value="4GB">4GB</option>
+                  <option value="8GB">8GB</option>
+                  <option value="16GB">16GB</option>
+                  <option value="32GB">32GB</option>
+                  <option value="64GB">64GB</option>
+                </select>
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-lg-12">
+                <input
+                  type="submit"
+                  value="SUBMIT"
+                  class="form-control btn btn-primary" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-lg-12">
+          <table class="table table-bordered table-striped table-warning">
+            <thead>
+              <tr>
+                <th>GPU</th>
+                <th>CPU</th>
+                <th>Storage</th>
+                <th>RAM</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="table"></tbody>
+              <tr>
+                <td>
+                  <button class="delete"></button>
+                </td>
+              </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
