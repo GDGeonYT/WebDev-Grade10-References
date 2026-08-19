@@ -1,20 +1,19 @@
-# Programing Project Files
-### Codes for References By Geon & Jay
+> [!NOTE]  
+> **Archive Notice:** This repository is an archived collection of web development reference files, project templates, and practical exercises created for school coursework (2023–2024).
 
-This Repository will update frequently with more folders
+# 💻 Web Development References
 
-[Update] Oct. 21, 2023:
-- Added Blog Website for Reference
+> Code references, project templates, and practical exercises curated by **Geon Ivan Dulaca** & **Jay Santiago** of STVEP 10-Byron.
 
-[Update] Oct. 22, 2023:
-- Added Practical Forms (2 Examples)
+---
 
-[Update] Oct. 23, 2023:
-- Added Remedial Practical Reference
+### 📁 Included References & Templates
 
-[Update] Nov. 14, 2023:
-- More Organized Folders (Q1,Q2,Q3,Q4)
-- Note: Q2,Q3 & Q4 will show soon if there is new file uploaded
+* **Blog Website Reference:** Frontend layout and structure example
+* **Practical Forms:** Form validation and input handling examples
+* **PHP & MySQL Database Project:** Backend database integration project files
+* **Academic Coursework:** Quarter-based programming exercises and code snippets
 
-[Update] Nov. 29, 2023:
-- New Release! (PHP MySql Database Project File)
+---
+
+🛠️ *Language & Stack:* HTML, CSS, PHP, MySQL
